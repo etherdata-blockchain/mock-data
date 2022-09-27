@@ -13,5 +13,5 @@ export async function onRequest(context) {
 
   let resp = JSON.stringify(HomeAppleStoreList);
 
-  return new Response(resp);
+  return new Response(resp, );
 }
