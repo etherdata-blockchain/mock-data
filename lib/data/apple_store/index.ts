@@ -77,7 +77,7 @@ export const verticalListItem4: VerticalListItem = {
   linkText: "From $429",
 };
 
-export const HomeAppleStoreList: [AppleStoreList] = [
+export const HomeAppleStoreList: AppleStoreList[] = [
   {
     id: 1,
     type: ListType.carousel,
