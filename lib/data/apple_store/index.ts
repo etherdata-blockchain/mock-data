@@ -24,7 +24,7 @@ export const HomeCarousel2: CarouselCard = {
   label: "New",
   backgroundImage:
     "https://www.apple.com/v/iphone-14/a/images/overview/hero/hero_iphone_14_plus__fra3gmuj0aum_large_2x.jpg",
-  backgroundColor: "#000000",
+  backgroundColor: "#FFFFFF",
   link: "/2",
 };
 
@@ -35,7 +35,7 @@ export const HomeCarousel3: CarouselCard = {
     "Music on a more personal note. Adaptive EQ automatically tunes music to your ears. Inward-facing microphones detect what you’re hearing, then adjust low and midrange frequencies to deliver the rich details in every song, customized for you in real time.",
   backgroundImage:
     "https://www.apple.com/v/airpods/s/images/overview/airpods_3rd_gen__dhy5bknhvtqq_large_2x.jpg",
-  backgroundColor: "#000000",
+  backgroundColor: "#FFFFFF",
   link: "/3",
 };
 
