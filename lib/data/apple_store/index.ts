@@ -2,6 +2,8 @@ import {
   AppleStoreList,
   CarouselCard,
   ListType,
+  VerticalListItem,
+  VerticalImageItem,
 } from "../../types/AppleStoreInterface";
 
 export const HomeCarousel1: CarouselCard = {
@@ -13,7 +15,7 @@ export const HomeCarousel1: CarouselCard = {
   backgroundImage:
     "https://www.apple.com/v/iphone-14-pro/a/images/overview/hero/hero_endframe__cvklg0xk3w6e_large_2x.jpg",
   backgroundColor: "#000000",
-  link: "/1",
+  link: "/0",
 };
 
 export const HomeCarousel2: CarouselCard = {
@@ -25,7 +27,7 @@ export const HomeCarousel2: CarouselCard = {
   backgroundImage:
     "https://www.apple.com/v/iphone-14/a/images/overview/hero/hero_iphone_14_plus__fra3gmuj0aum_large_2x.jpg",
   backgroundColor: "#FFFFFF",
-  link: "/2",
+  link: "/1",
 };
 
 export const HomeCarousel3: CarouselCard = {
@@ -36,7 +38,43 @@ export const HomeCarousel3: CarouselCard = {
   backgroundImage:
     "https://www.apple.com/v/airpods/s/images/overview/airpods_3rd_gen__dhy5bknhvtqq_large_2x.jpg",
   backgroundColor: "#FFFFFF",
+  link: "/2",
+};
+
+export const verticalListItem1: VerticalListItem = {
+  id: 3,
+  image:
+    "https://www.apple.com/v/iphone/switch/h/images/overview/compare/compare_iphone_14_pro__n89p3mzde9e2_small_2x.jpg",
+  title: "iPhone 14 Pro and iPhone 14 Pro Max",
   link: "/3",
+  linkText: "From $999",
+};
+
+export const verticalListItem2: VerticalListItem = {
+  id: 4,
+  image:
+    "https://www.apple.com/v/iphone/switch/h/images/overview/compare/compare_iphone_14__ffrnsy2xheum_small_2x.jpg",
+  title: "iPhone 14 and iPhone 14 Plus",
+  link: "/3",
+  linkText: "From $799",
+};
+
+export const verticalListItem3: VerticalListItem = {
+  id: 5,
+  image:
+    "https://www.apple.com/v/iphone/switch/h/images/overview/compare/compare_iphone_13__e2p1kl3sf96q_small_2x.jpg",
+  title: "iPhone 13",
+  link: "/5",
+  linkText: "From $599",
+};
+
+export const verticalListItem4: VerticalListItem = {
+  id: 6,
+  image:
+    "https://www.apple.com/v/iphone/switch/h/images/overview/compare/compare_iphone_se__gm4bi8tnyeuu_small_2x.jpg",
+  title: "iPhone SE",
+  link: "/6",
+  linkText: "From $429",
 };
 
 export const HomeAppleStoreList: [AppleStoreList] = [
@@ -55,6 +93,28 @@ export const HomeAppleStoreList: [AppleStoreList] = [
       {
         id: 4,
         content: HomeCarousel3,
+      },
+    ],
+  },
+  {
+    id: 5,
+    type: ListType.verticalList,
+    items: [
+      {
+        id: 6,
+        content: verticalListItem1,
+      },
+      {
+        id: 7,
+        content: verticalListItem2,
+      },
+      {
+        id: 8,
+        content: verticalListItem3,
+      },
+      {
+        id: 9,
+        content: verticalListItem4,
       },
     ],
   },
