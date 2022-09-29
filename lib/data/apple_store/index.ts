@@ -4,6 +4,7 @@ import {
   ListType,
   VerticalListItem,
   VerticalImageItem,
+  GridItem,
 } from "../../types/AppleStoreInterface";
 
 export const HomeCarousel1: CarouselCard = {
@@ -81,7 +82,7 @@ export const verticalImageItem1: VerticalImageItem = {
   id: 7,
   title: "Compare with your existing iPhone 13 Pro Max",
   image:
-    "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-trade-in-202209?wid=1976&hei=788&fmt=jpeg&qlt=90&.v=1660864453310",
+    "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-trade-in-202209?wid=1976&hei=788&fmt=png-alpha&qlt=90&.v=1660864453310",
   link: "/7",
   linkTitle:
     "Easy to trade in your eligible device for credit toward your next purchase",
@@ -94,7 +95,7 @@ export const verticalImageItem2: VerticalImageItem = {
   description:
     "It’s easy to trade in your eligible device for credit toward your next purchase, or get an Apple Gift Card you can use anytime.Footnote",
   image:
-    "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/trade-in-compare-iphone-14-pro-202209?wid=392&hei=540&fmt=jpeg&qlt=90&.v=1663712444791",
+    "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/trade-in-compare-iphone-14-pro-202209?wid=392&hei=540&fmt=png-alpha&qlt=90&.v=1663712444791",
   link: "/7",
   linkTitle:
     "Easy to trade in your eligible device for credit toward your next purchase",
@@ -106,9 +107,89 @@ export const verticalImageItem3: VerticalImageItem = {
   description:
     "You may be done with your device, but chances are it still has more to give. If it’s in good shape, we’ll help it go to a new owner, diverting electronic waste from landfills. If not, we’ll send it to our recycling partner, so we can save more precious materials and take less from the earth.",
   image:
-    "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/trade-in-recycle-daisy-202106?wid=1256&hei=1216&fmt=jpeg&qlt=90&.v=1622814967000",
-  link: "/8",
+    "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/trade-in-recycle-daisy-202106?wid=1256&hei=1216&fmt=png-alpha&qlt=90&.v=1622814967000",
+  link: "/9",
   linkTitle: "Learn more about Apple Trade In and recycling",
+};
+
+export const gridItem1: GridItem = {
+  id: 10,
+  title: "iPhone 14",
+  image:
+    "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/trade-in-compare-iphone-14-202209?wid=372&hei=540&fmt=png-alpha&qlt=90&.v=1663712447241",
+  link: "/10",
+};
+
+export const gridItem2: GridItem = {
+  id: 11,
+  title: "iPhone 14 Plus",
+  image:
+    "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone14-202209?wid=680&hei=528&fmt=png-alpha&qlt=95&.v=1661958160674",
+  link: "/11",
+};
+
+export const gridItem3: GridItem = {
+  id: 12,
+  title: "iPhone 13",
+  image:
+    "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone13-202209?wid=680&hei=528&fmt=png-alpha&qlt=95&.v=1661958176452",
+  link: "/12",
+};
+
+export const gridItem4: GridItem = {
+  id: 13,
+  title: "iPhone SE",
+  image:
+    "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphonese-202203?wid=680&hei=528&fmt=png-alpha&qlt=95&.v=1646415838921",
+  link: "/13",
+};
+
+export const gridItem5: GridItem = {
+  id: 14,
+  title: "AirPods Pro",
+  image:
+    "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MQD83?wid=532&hei=582&fmt=png-alpha&.v=1660803972361",
+  link: "/14",
+};
+
+export const gridItem6: GridItem = {
+  id: 15,
+  title: "MagSafe Charger",
+  image:
+    "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MHXH3?wid=532&hei=582&fmt=png-alpha&.v=1661269793559",
+  link: "/15",
+};
+
+export const gridItem7: GridItem = {
+  id: 16,
+  title: "AirTag",
+  image:
+    "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airtag-single-select-202104?wid=532&hei=582&fmt=png-alpha&.v=1617761671000",
+  link: "/16",
+};
+
+export const gridItem8: GridItem = {
+  id: 17,
+  title: "HomePod Mini",
+  image:
+    "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/homepod-mini-accessories-202110?wid=2140&hei=531&fmt=png-alpha&qlt=90&.v=1633526327000",
+  link: "/17",
+};
+
+export const gridItem9: GridItem = {
+  id: 18,
+  title: "AirPods Max",
+  image:
+    "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-max-select-green-202011?wid=890&hei=890&fmt=png-alpha&qlt=95&.v=1604022364000",
+  link: "/18",
+};
+
+export const gridItem10: GridItem = {
+  id: 19,
+  title: "Beats",
+  image:
+    "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MK2J3?wid=890&hei=890&fmt=png-alpha&qlt=95&.v=1634663503000",
+  link: "/19",
 };
 
 export const HomeAppleStoreList: AppleStoreList[] = [
@@ -167,6 +248,52 @@ export const HomeAppleStoreList: AppleStoreList[] = [
       {
         id: 12,
         content: verticalImageItem3,
+      },
+    ],
+  },
+  {
+    id: 7,
+    type: ListType.grid,
+    items: [
+      {
+        id: 13,
+        content: gridItem1,
+      },
+      {
+        id: 14,
+        content: gridItem2,
+      },
+      {
+        id: 15,
+        content: gridItem3,
+      },
+      {
+        id: 16,
+        content: gridItem4,
+      },
+      {
+        id: 17,
+        content: gridItem5,
+      },
+      {
+        id: 18,
+        content: gridItem6,
+      },
+      {
+        id: 19,
+        content: gridItem7,
+      },
+      {
+        id: 20,
+        content: gridItem8,
+      },
+      {
+        id: 21,
+        content: gridItem9,
+      },
+      {
+        id: 22,
+        content: gridItem10,
       },
     ],
   },
