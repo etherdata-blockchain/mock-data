@@ -22,13 +22,14 @@ export enum ListType {
   grid = "grid",
   verticalImage = "verticalImage",
   verticalList = "verticalList",
+  webview = "webview",
 }
 
 export interface AppleStoreList {
   id: number;
   type: ListType;
   items: AppleStoreListItem<
-    GridItem | VerticalListItem | VerticalImageItem | CarouselCard
+    GridItem | VerticalListItem | VerticalImageItem | CarouselCard | WebViewItem
   >[];
   title?: string;
 }
@@ -62,4 +63,9 @@ export interface VerticalListItem {
   title: string;
   link: string;
   linkText: string;
+}
+
+export interface WebViewItem {
+  id: number;
+  link: string;
 }
