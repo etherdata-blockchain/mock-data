@@ -80,12 +80,12 @@ export const verticalListItem4: VerticalListItem = {
 export const verticalImageItem1: VerticalImageItem = {
   id: 7,
   title: "Compare with your existing iPhone 13 Pro Max",
-  description: "",
   image:
     "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-trade-in-202209?wid=1976&hei=788&fmt=jpeg&qlt=90&.v=1660864453310",
   link: "/7",
   linkTitle:
     "Easy to trade in your eligible device for credit toward your next purchase",
+  backgroundColor: "#424242",
 };
 
 export const verticalImageItem2: VerticalImageItem = {
@@ -101,7 +101,7 @@ export const verticalImageItem2: VerticalImageItem = {
 };
 
 export const verticalImageItem3: VerticalImageItem = {
-  id: 8,
+  id: 9,
   title: "It goes on to help the planet",
   description:
     "You may be done with your device, but chances are it still has more to give. If it’s in good shape, we’ll help it go to a new owner, diverting electronic waste from landfills. If not, we’ll send it to our recycling partner, so we can save more precious materials and take less from the earth.",

@@ -48,7 +48,7 @@ export interface GridItem {
 export interface VerticalImageItem {
   id: number;
   title: string;
-  description: string;
+  description?: string;
   backgroundColor?: string;
   image: string;
   link: string;
