@@ -85,7 +85,7 @@ export const verticalImageItem1: VerticalImageItem = {
   link: "/7",
   linkTitle:
     "Easy to trade in your eligible device for credit toward your next purchase",
-  backgroundColor: "#424242",
+  backgroundColor: "#f2f2f2",
 };
 
 export const verticalImageItem2: VerticalImageItem = {
