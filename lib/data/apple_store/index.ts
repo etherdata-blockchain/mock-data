@@ -77,6 +77,40 @@ export const verticalListItem4: VerticalListItem = {
   linkText: "From $429",
 };
 
+export const verticalImageItem1: VerticalImageItem = {
+  id: 7,
+  title: "Compare with your existing iPhone 13 Pro Max",
+  description: "",
+  image:
+    "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-trade-in-202209?wid=1976&hei=788&fmt=jpeg&qlt=90&.v=1660864453310",
+  link: "/7",
+  linkTitle:
+    "Easy to trade in your eligible device for credit toward your next purchase",
+};
+
+export const verticalImageItem2: VerticalImageItem = {
+  id: 8,
+  title: "Your existing iPhone 13 Pro Max worth up to $1,000",
+  description:
+    "It’s easy to trade in your eligible device for credit toward your next purchase, or get an Apple Gift Card you can use anytime.Footnote",
+  image:
+    "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/trade-in-compare-iphone-14-pro-202209?wid=392&hei=540&fmt=jpeg&qlt=90&.v=1663712444791",
+  link: "/7",
+  linkTitle:
+    "Easy to trade in your eligible device for credit toward your next purchase",
+};
+
+export const verticalImageItem3: VerticalImageItem = {
+  id: 8,
+  title: "It goes on to help the planet",
+  description:
+    "You may be done with your device, but chances are it still has more to give. If it’s in good shape, we’ll help it go to a new owner, diverting electronic waste from landfills. If not, we’ll send it to our recycling partner, so we can save more precious materials and take less from the earth.",
+  image:
+    "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/trade-in-recycle-daisy-202106?wid=1256&hei=1216&fmt=jpeg&qlt=90&.v=1622814967000",
+  link: "/8",
+  linkTitle: "Learn more about Apple Trade In and recycling",
+};
+
 export const HomeAppleStoreList: AppleStoreList[] = [
   {
     id: 1,
@@ -115,6 +149,24 @@ export const HomeAppleStoreList: AppleStoreList[] = [
       {
         id: 9,
         content: verticalListItem4,
+      },
+    ],
+  },
+  {
+    id: 6,
+    type: ListType.verticalImage,
+    items: [
+      {
+        id: 10,
+        content: verticalImageItem1,
+      },
+      {
+        id: 11,
+        content: verticalImageItem2,
+      },
+      {
+        id: 12,
+        content: verticalImageItem3,
       },
     ],
   },
